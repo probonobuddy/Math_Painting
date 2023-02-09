@@ -1,0 +1,19 @@
+Create 3 object types.
+Canvas
+    height
+    width
+    color
+    save_image()
+Rectangle
+    height
+    width
+    color
+    x_location
+    y_location
+    add_to_canvas(canvas)
+Square
+    side_length
+    color
+    x_location
+    y_location
+    add_to_canvas(canvas)
