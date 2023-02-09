@@ -32,8 +32,7 @@ def prompt_rect():
 
 canvas = prompt_canvas()
 
-menu = True
-while menu:
+while True:
     shape = input('What shape would you like to draw? ')
     if shape.lower() == 'square':
         square = prompt_square()
